@@ -47,3 +47,4 @@ output "nat-b-public-ip" {
 #output "nat-c-public-ip" {
 #  value = "${local.nat-c-out}"
 #}
+
