@@ -40,10 +40,10 @@ output "nat-a-public-ip" {
 
 # Nat-B public ip
 output "nat-b-public-ip" {
-  value = "${module.nat-a.public-ip}"
+  value = "${module.nat-b.public-ip}"
 }
 
 # Nat-C public ip
 output "nat-c-public-ip" {
-  value = "${local.nat-c-out}"
+  value = "${module.nat-c.public-ip}"
 }

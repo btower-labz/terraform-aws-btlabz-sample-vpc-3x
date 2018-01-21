@@ -5,7 +5,7 @@ variable "az-a" {
 
 variable "az-b" {
   type    = "string"
-  default = "us-east-1a"
+  default = ""
 }
 
 variable "az-c" {

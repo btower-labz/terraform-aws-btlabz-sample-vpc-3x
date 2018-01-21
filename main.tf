@@ -76,3 +76,10 @@ module "nat-b" {
   name      = "${var.nat-b-name}"
   tags      = "${var.tags}"
 }
+
+module "nat-c" {
+  source    = "github.com/btower-labz/terraform-aws-btlabz-nat-base"
+  subnet-id = "${module.public-c.subnet-id}"
+  name      = "${var.nat-c-name}"
+  tags      = "${var.tags}"
+}
