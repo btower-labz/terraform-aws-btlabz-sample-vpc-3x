@@ -44,7 +44,6 @@ output "nat-b-public-ip" {
 }
 
 # Nat-C public ip
-#output "nat-c-public-ip" {
-#  value = "${local.nat-c-out}"
-#}
-
+output "nat-c-public-ip" {
+  value = "${local.nat-c-out}"
+}
