@@ -3,6 +3,8 @@
 ## Directory structure
 ```
 .
+├── graph.dot
+├── graph.png
 ├── LICENSE
 ├── main.tf
 ├── provider.tf
@@ -15,6 +17,8 @@
 
 | File | Description |
 | --- | --- |
+| ./graph.dot | | 
+| ./graph.png | | 
 | ./LICENSE | | 
 | ./main.tf | | 
 | ./provider.tf | | 
