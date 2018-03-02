@@ -1,5 +1,5 @@
 provider "aws" {
   version = "~> 1.7"
-  region  = "us-east-1"
-  profile = "dswarm"
+  profile = "btlabz-vpc"
+  region  = "us-west-2"
 }
