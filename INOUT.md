@@ -1,3 +1,0 @@
-# Terraform inputs and outputs.
-
-
