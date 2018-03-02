@@ -1,5 +1,7 @@
 module "vpc_stage" {
-  source = "github.com/btower-labz/terraform-aws-btlabz-vpc-ha-3x"
+  # source = "github.com/btower-labz/terraform-aws-btlabz-vpc-ha-3x"
+  source = "btower-labz/btlabz-vpc-ha-3x/aws"
+  version = "0.0.4"
 
   vpc_name = "stage-vpc"
 

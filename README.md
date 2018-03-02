@@ -1,3 +1,8 @@
-# terraform-aws-vpc
-AWS Proper VPC. 3X AZ. HA.
+# BT-Labz AWS VPC parts.
+
+# VPC Creation Sample 3x.
+
+
+
+
 
